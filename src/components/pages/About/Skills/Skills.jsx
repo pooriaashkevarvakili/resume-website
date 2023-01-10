@@ -5,78 +5,109 @@ const skillData = [
   {
     id: 1,
     title: "frontend-developer",
-    percentage: "50%",
+    percentage: "80%"
+
   },
   {
     id: 2,
-    title: "Html, Css, Scss",
-    percentage: "50%",
+    title: "Html, Css, Scss,less",
+    percentage: "80%",
+
   },
   {
     id: 3,
     title: "Bootstrap",
-    percentage: "50%"
+    percentage: "60%",
+
   },
   {
     id: 4,
     title: "TailwindCSS",
-    percentage: "50%"
+    percentage: "90%"
+
   },
   {
     id: 5,
     title: "Javascript",
-    percentage: "50%"
+    percentage: "60%"
+
   },
   {
     id: 6,
     title: "ReactJS",
-    percentage: "50%"
-  },
-  {
-    id: 7,
-    title: "vue-js",
-    percentage: "50%"
-  },
-  {
-    id: 8,
-    title: "nuxt-js",
-    percentage: "50%"
-  },
-  {
-    id: 9,
-    title: "Git, Github",
-    percentage: "50%"
+    percentage: "60%"
 
   },
   {
+    id: 7,
+    title: "next-js",
+    percentage: "60%"
+
+  },
+  {
+    id: 8,
+    title: "vue-js",
+    percentage: "90%"
+
+  },
+  {
+    id: 9,
+    title: "nuxt-js",
+    percentage: "90%"
+  },
+  {
     id: 10,
-    title: "vuetify",
-    percentage: "50%"
+    title: "Git, Github",
+    percentage: "90%"
+
   },
   {
     id: 11,
-    title: "quasar",
-    percentage: "50%"
+    title: "vuetify",
+    percentage: "90%"
   },
   {
     id: 12,
-    title: "next-js",
-    percentage: "50%"
+    title: "quasar",
+    percentage: "90%"
   },
   {
     id: 13,
-    title: "vuex",
-    percentage: "50%"
+    title: "bootstrap-vue",
+    percentage: "80%"
   },
   {
     id: 14,
-    title: "pinia",
-    percentage: "50%"
+    title: "ant-design",
+    percentage: "70%"
+
   },
   {
     id: 15,
+    title: "bulma",
+    percentage: "70%"
+  },
+  {
+    id: 16,
+    title: "swagger",
+    percentage: "60%"
+  },
+
+
+  {
+    id: 17,
+    title: "vuex",
+    percentage: "90%"
+  },
+  {
+    id: 18,
+    title: "pinia",
+    percentage: "90%"
+  },
+  {
+    id: 19,
     title: "typescript",
-    percentage: "50%"
+    percentage: "60%"
   },
 ];
 

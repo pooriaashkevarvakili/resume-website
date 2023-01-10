@@ -7,6 +7,7 @@ import PortfolioItem from "./PortfolioItem";
 import hakupian from "../../../images/hakupianportfolio.jpg"
 import surthland from "../../../images/surthland.png"
 import Weblog from "../../../images/weblog_personal.png"
+import ecommerce from "../../../images/portfolio-doshboard.jpg"
 const portfolioData = [
   {
     id: 1,
@@ -44,7 +45,7 @@ const portfolioData = [
     image: hakupian,
     title: "hakupian",
     link: "https://spa-6eq8433jg-pooriavakili.vercel.app/#/",
-    description: "vue"
+    description: "vue quasar"
 
   },
   {
@@ -56,11 +57,19 @@ const portfolioData = [
 
   },
   {
-    id: 6,
+    id: 7,
     image: Weblog,
     title: "weblog",
     link: "http://weblogpooriaashkevarvakili.surge.sh/",
-    description: "vue"
+    description: "vue quasar"
+
+  },
+  {
+    id: 8,
+    image: ecommerce,
+    title: "ecommerce vuetify",
+    link: "http://portfoliodashboard.surge.sh/",
+    description: "vue nuxt"
 
   },
 ];
