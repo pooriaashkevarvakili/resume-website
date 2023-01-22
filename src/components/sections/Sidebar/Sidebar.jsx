@@ -1,17 +1,11 @@
 import React from "react";
 import {
-
   FaGithub,
-
   FaLinkedinIn,
   FaWhatsapp,
 
-
 } from "react-icons/fa";
-import {
-  AiOutlineMail
-} from "react-icons/ai"
-
+import { AiOutlineMail } from "react-icons/ai"
 const socials = [
 
   {
@@ -29,13 +23,13 @@ const socials = [
     icon: <FaWhatsapp />,
     link: "https://api.whatsapp.com/send/?phone=989376720694&text&type=phone_number&app_absent=0",
   },
-
-
   {
     id: 4,
     icon: <AiOutlineMail />,
-    link: "pooriavakili09@gmail.com",
+    link: "mailto:pooriavakili09@gmail.com",
   },
+
+
 
 ];
 
@@ -52,17 +46,20 @@ const Sidebar = () => {
 
         </p>
         <a
-          href="https://s26.picofile.com/d/8458242718/b0a6d325-f527-470b-9088-6a71df04c69c/front_end.pdf"
+          href="https://s27.picofile.com/d/8458732926/d860fbd0-18f0-46ee-9744-9c2cafb9f583/resume05.pdf"
           className="inline-block mb-3 rounded bg-purple-600 text-center border-0 py-2 px-6 text-white leading-7 tracking-wide hover:bg-purple-800"
           download="Resume.pdf"
         >
           Download Resume
         </a>
-        <div
+        <div className="flex flex-col">
+          <div>mobile:</div>
+          <div>
+            09376720694
+          </div>
 
-        >
-          mobile:09376720694
         </div>
+
         <ul className="flex flex-wrap justify-center">
           {socials.map((social, id) => (
             <SocialIcon social={social} key={id} />

@@ -34,81 +34,97 @@ const skillData = [
   },
   {
     id: 6,
+    title: "typescript",
+    percentage: "60%"
+  },
+  {
+    id: 7,
     title: "ReactJS",
     percentage: "60%"
 
   },
   {
-    id: 7,
+    id: 8,
     title: "next-js",
     percentage: "60%"
 
   },
   {
-    id: 8,
+    id: 9,
     title: "vue-js",
     percentage: "90%"
 
   },
   {
-    id: 9,
+    id: 10,
     title: "nuxt-js",
     percentage: "90%"
   },
   {
-    id: 10,
+    id: 11,
     title: "Git, Github",
     percentage: "90%"
 
   },
   {
-    id: 11,
+    id: 12,
     title: "vuetify",
     percentage: "90%"
   },
   {
-    id: 12,
+    id: 13,
     title: "quasar",
     percentage: "90%"
   },
   {
-    id: 13,
+    id: 14,
     title: "bootstrap-vue",
     percentage: "80%"
   },
   {
-    id: 14,
+    id: 15,
     title: "ant-design",
     percentage: "70%"
 
   },
   {
-    id: 15,
+    id: 16,
+    title: "vue-ant-design",
+    percentage: "70%"
+
+  },
+  {
+    id: 17,
     title: "bulma",
     percentage: "70%"
   },
   {
-    id: 16,
+    id: 18,
     title: "swagger",
     percentage: "60%"
   },
-
+  {
+    id: 19,
+    title: "postman",
+    percentage: "60%"
+  },
 
   {
-    id: 17,
+    id: 20,
     title: "vuex",
     percentage: "90%"
   },
   {
-    id: 18,
+    id: 21,
     title: "pinia",
     percentage: "90%"
   },
   {
-    id: 19,
-    title: "typescript",
-    percentage: "60%"
+    id: 22,
+    title: "scrum",
+    percentage: "70%"
   },
+
 ];
 
 const Skills = () => {
